@@ -6,7 +6,8 @@
     "requireBranch": "main"
   },
   "npm": {
-    "publish": true
+    "publish": true,
+    "access": "public"
   },
   "github": {
     "release": false
