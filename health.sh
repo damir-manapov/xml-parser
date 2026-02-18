@@ -2,8 +2,8 @@
 set -e
 
 echo "=== Gitleaks ==="
-gitleaks git --source . --verbose
-gitleaks dir --source . --verbose
+gitleaks git . --verbose
+gitleaks dir . --verbose
 
 echo "=== Outdated dependencies ==="
 pnpm outdated
