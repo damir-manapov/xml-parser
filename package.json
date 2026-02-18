@@ -1,0 +1,42 @@
+{
+  "name": "@mkven/xml-parser",
+  "version": "0.0.1",
+  "description": "Opinionated XML parsing utilities with ZIP archive support",
+  "author": "Damir Manapov",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "adm-zip": "^0.5.16",
+    "fast-xml-parser": "^5.2.3",
+    "unzipper": "^0.12.3"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.0.6",
+    "@release-it/conventional-changelog": "^10.0.0",
+    "@types/adm-zip": "^0.5.7",
+    "@types/node": "^24.0.10",
+    "@types/unzipper": "^0.10.11",
+    "release-it": "^19.0.3",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "biome check --write .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "release": "release-it",
+    "release:dry": "release-it --dry-run"
+  }
+}
