@@ -1,12 +1,12 @@
 # Changelog
 
-## [](https://github.com/damir-manapov/xml-parser/compare/v0.2.0...vnull) (2026-02-20)
+## [0.2.1](https://github.com/damir-manapov/xml-parser/compare/v0.2.0...v0.2.1) (2026-02-20)
 
 ### Bug Fixes
 
 * add commonjs type to cjs output for ESM compat ([0872125](https://github.com/damir-manapov/xml-parser/commit/0872125034bac9795bf2f49c28e53303c306e086))
 
-## [](https://github.com/damir-manapov/xml-parser/compare/v0.1.0...vnull) (2026-02-18)
+## [0.2.0](https://github.com/damir-manapov/xml-parser/compare/v0.1.0...v0.2.0) (2026-02-18)
 
 ### Features
 
