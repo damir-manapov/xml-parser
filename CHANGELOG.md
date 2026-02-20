@@ -1,6 +1,6 @@
 # Changelog
 
-## [](https://github.com/damir-manapov/xml-parser/compare/v0.2.1...vnull) (2026-02-20)
+## [0.2.2](https://github.com/damir-manapov/xml-parser/compare/v0.2.1...v0.2.2) (2026-02-20)
 
 ### Bug Fixes
 
