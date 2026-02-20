@@ -1,5 +1,15 @@
 # Changelog
 
+## [](https://github.com/damir-manapov/xml-parser/compare/v0.2.1...vnull) (2026-02-20)
+
+### Bug Fixes
+
+* reset version to match latest tag v0.2.1 ([c47194e](https://github.com/damir-manapov/xml-parser/commit/c47194e2ee55a28f5069a3c3174b1542bcdc84f4))
+
+### Documentation
+
+* fix changelog version headers ([fd9b26a](https://github.com/damir-manapov/xml-parser/commit/fd9b26a72c366a4d6d27dba58f25ef477c7cab74))
+
 ## [0.2.1](https://github.com/damir-manapov/xml-parser/compare/v0.2.0...v0.2.1) (2026-02-20)
 
 ### Bug Fixes
