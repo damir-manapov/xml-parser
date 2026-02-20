@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.2.4](https://github.com/damir-manapov/xml-parser/compare/v0.2.2...v0.2.4) (2026-02-20)
+
+### Documentation
+
+* fix changelog v0.2.2 header ([b0cb1ed](https://github.com/damir-manapov/xml-parser/commit/b0cb1ed7e60d840bf9fd22577659adafb1b629aa))
+
 ## [0.2.2](https://github.com/damir-manapov/xml-parser/compare/v0.2.1...v0.2.2) (2026-02-20)
 
 ### Bug Fixes
