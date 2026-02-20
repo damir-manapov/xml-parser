@@ -36,7 +36,7 @@
     "vitest": "^4.0.18"
   },
   "scripts": {
-    "build": "tsc && tsc -p tsconfig.cjs.json",
+    "build": "tsc && tsc -p tsconfig.cjs.json && echo '{\"type\":\"commonjs\"}' > dist/cjs/package.json",
     "lint": "biome check --write .",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
